@@ -1,0 +1,27 @@
+{% extends 'Homepage/base.html' %}
+{% load static %}
+
+{% block title %} Register Page {% endblock %}
+
+{% block body %}
+    <h1> Welcome to the BHMS </h1>
+    <div class="logo">
+        <img src="{% static 'Homepage/Images/images.png' %}" />
+    </div>
+
+
+    <form method="post">
+    {% csrf_token %}
+     <div class="login-block">
+
+        <h1>Register</h1>
+        <input type="text" class="form-control" placeholder="Username or E-mail or Phone"
+                               name="username">
+         <input type="password" class="form-control" placeholder="Enter your password"
+                               name="password">
+
+        <button>Register</button>
+    </div>
+    </form>
+
+{% endblock %}

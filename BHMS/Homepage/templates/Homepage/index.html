@@ -1,0 +1,33 @@
+{% extends 'Homepage/base.html' %}
+{% load static %}
+
+{% block title %} Login Page {% endblock %}
+
+{% block body %}
+    <h1> Welcome to the BHMS </h1>
+    <div class="logo">
+        <img src="{% static 'Homepage/Images/images.png' %}" />
+    </div>
+    {% if user.is_authenticated %}
+        <h1>hello</h1>
+    <h1>{{ user.username }}</h1>
+    {% endif %}
+    {{ user }}
+
+
+
+    <form method="post">
+    {% csrf_token %}
+     <div class="login-block">
+
+        <h1>Login</h1>
+        <input type="text" class="form-control" placeholder="Username or E-mail or Phone"
+                               name="username">
+         <input type="password" class="form-control" placeholder="Enter your password"
+                               name="password">
+
+        <button>Submit</button>
+    </div>
+    </form>
+
+{% endblock %}
