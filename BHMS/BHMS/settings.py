@@ -37,10 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-=======
     'Homepage',
->>>>>>> de52154d47069a8a056651a8a3657bd00ef4a32e
 ]
 
 MIDDLEWARE = [
@@ -78,23 +75,12 @@ WSGI_APPLICATION = 'BHMS.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-<<<<<<< HEAD
+
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-=======
-      'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demo',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '1234',
-    }
 
-    
->>>>>>> de52154d47069a8a056651a8a3657bd00ef4a32e
 }
 
 
@@ -135,13 +121,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
-=======
 
-STATICFILES_DIR = [
-    os.path.join(BASE_DIR, "static"),
-]
-
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),"static_cdn")
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),"media_cdn")
->>>>>>> de52154d47069a8a056651a8a3657bd00ef4a32e

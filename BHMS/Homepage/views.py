@@ -41,3 +41,6 @@ def user_register(request):
 
     }
     return render(request,'Homepage/register.html',Context)
+
+def my_cv(request):
+    return render(request,'Homepage/my_cv.html',{})
