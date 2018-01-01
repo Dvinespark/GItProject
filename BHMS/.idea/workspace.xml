@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bac0f56-41eb-4870-9147-a0a2f6888770" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Homepage/forms.py" afterPath="$PROJECT_DIR$/Homepage/forms.py" />
-      <change beforePath="$PROJECT_DIR$/Homepage/templates/Homepage/register.html" afterPath="$PROJECT_DIR$/Homepage/templates/Homepage/register.html" />
-      <change beforePath="$PROJECT_DIR$/Homepage/urls.py" afterPath="$PROJECT_DIR$/Homepage/urls.py" />
-      <change beforePath="$PROJECT_DIR$/Homepage/views.py" afterPath="$PROJECT_DIR$/Homepage/views.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-    </list>
+    <list default="true" id="3bac0f56-41eb-4870-9147-a0a2f6888770" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +232,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="966" height="1033" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
